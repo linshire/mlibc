@@ -30,5 +30,8 @@ typedef long		           _fpos_t;
 typedef int64_t               intmax_t;
 typedef uint64_t              uintmax_t;
 
+typedef int32_t               bool_t;      /* boolean type */
+typedef signed long           base_t;      /* Nbit CPU related date type */
+typedef unsigned long         ubase_t;     /* Nbit unsigned CPU related data type */
 
 #endif
